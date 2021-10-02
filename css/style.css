@@ -1,0 +1,28 @@
+.addteam{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+h4{
+    display: none;
+}
+label{
+    color: black;
+    font-weight: bold;
+}
+#allplayerlist{
+    list-style-type:none; 
+    background-color: gray;
+    width: 200px;
+    display:none;
+    padding:10px 15px;
+    border: 2px solid black;
+    text-align: center;
+}
+.teamplayerlist{
+    display: flex;
+    list-style-type:none; 
+}
+#draggable{
+    display: flex;
+}

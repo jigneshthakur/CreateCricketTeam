@@ -24,14 +24,15 @@ $(document).ready(function($){
     
     document.getElementById("alllist").style.display = "block";
 
-
+    {/* draggable code to drag item or list */}
     $('.ui-widget-content').draggable({
       revert: 'invalid',
       stop: function(){
           $(this).draggable('option','revert','invalid');
       }
     });
-
+    
+    {/* droppable code for dropping items or list*/}
     $('.droppable').droppable({
       drop: function(event,ui){
           var $this = $(this);

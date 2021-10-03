@@ -12,9 +12,11 @@ $(document).ready(function($){
     for (let i = 1; i <= playerlist; i++) {
       text += "<ul style='list-style-type:none;' class='draggable'><li class='ui-widget-content' draggable='true' style= 'padding: 5px;'>Player " + i + "</li></ul>";
     }
+    {/* get all players list */}
     $('#allplayerlist').html(text)
     document.getElementById("allplayerlist").style.display = "block";
 
+    {/* nee item or player add in default list */}
     var inputs = '';
     for(var j = 1; j <= addteam; j++){
       inputs += `<h3 >Team:` + j +`</h3><ul class="droppable" style="list-style-type:none;border: 2px solid black; height: 200px; width: 200px; background-color: gray; margin-top:10px;">

@@ -10,9 +10,10 @@ label{
     color: black;
     font-weight: bold;
 }
+/* change bg-color */
 #allplayerlist{
     list-style-type:none; 
-    background-color: gray;
+    background-color: lightgray; 
     width: 200px;
     display:none;
     padding:10px 15px;

@@ -12,7 +12,7 @@ label{
 }
 #allplayerlist{
     list-style-type:none; 
-    background-color: gray;
+    background-color: lightgray; //color change
     width: 200px;
     display:none;
     padding:10px 15px;
